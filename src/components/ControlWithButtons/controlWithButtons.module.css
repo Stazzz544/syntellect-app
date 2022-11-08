@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.functext {
+    width: 100%;
+    resize: vertical;
+}
+
+.funcName {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btnLeft,
+.btnRight {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textAriaWrapper {
+    margin: 20px 0;
+}
+
+.addButton {
+    margin-top: 20px;
+}
+
+.radiContainer {
+    display: flex;
+    column-gap: 20px;
+}
+
+.form {
+    width: 500px;
+}
+
+.discription {
+    margin: 10px;
+}

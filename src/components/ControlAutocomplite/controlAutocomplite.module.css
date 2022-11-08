@@ -1,0 +1,45 @@
+.formWrapper {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.listWrapper {
+    width: 500px;
+    position: absolute;
+    z-index: 10;
+    background-color: #fafafa;
+    top: 32px;
+    display: none;
+
+}
+
+.flexWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 30px;
+    cursor: pointer;
+    border-bottom: grey 1px solid;
+    padding: 5px 10px;
+    column-gap: 10px;
+
+}
+
+.flexWrapper:hover {
+    background-color: aliceblue;
+}
+
+.countryField {
+    width: 500px;
+    padding: 5px 10px;
+}
+
+.countryField:focus+.listWrapper {
+    display: block;
+}
+
+.listWrapper:hover {
+    display: block;
+}

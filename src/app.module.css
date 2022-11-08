@@ -1,0 +1,12 @@
+.groupControlWrapper {
+    margin: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    height: 3px;
+    background: grey;
+    width: 100%;
+    margin: 10px 0;
+}
